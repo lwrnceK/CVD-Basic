@@ -296,7 +296,7 @@ transform: translateY(7px) rotate(225deg);
     margin-top:3rem;
   }
   .banner .banner__wrapper img{
-    width:20rem;
+    width:30rem;
     margin:0 auto;
   }
   .banner .banner__text h1{
@@ -305,6 +305,9 @@ transform: translateY(7px) rotate(225deg);
   .banner .banner__text p{
     margin-top:2rem;
     margin-bottom:5rem;
+  }
+  .banner .banner__text a{
+    transition: .5s ease;
   }
 }
 
@@ -333,13 +336,113 @@ transform: translateY(7px) rotate(225deg);
   background:#2b2b2b;
   border:1px solid #ffa700;
   color:#ffa700;
+  transition:.5s ease;
 }
 .btn.dark{
-  background:black;
+  background:#2b2b2b;
   color:#ffffff;
 }
 .btn.dark:hover{
-  background:#ffa700;
+  background:#ffffff;
   border:1px solid #2b2b2b;
   color:#2b2b2b;
+  transition:.5s ease;
+}
+
+/*-----HM-ABT------*/
+.hm-abt{
+  background: white;
+  padding-top:13rem;
+  padding-bottom:8rem;
+}
+.hm-abt .hm-abt__wrapper{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+/* .hm-abt .hm-abt__wrapper img{
+padding-left: 30rem;
+} */
+.hm-abt .hm-abt__text h2{
+  font-size: 3rem;
+  font-weight:800;
+  color: #ffa700;
+  line-height: 1.5;
+}
+.hm-abt .hm-abt__text p{
+  line-height: 1;
+  text-align: justify;
+ margin:3rem 0;
+  max-width:60rem;
+}
+
+@media screen and (max-width:500px){
+  .hm-abt .hm-abt__wrapper{
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .hm-abt .hm-abt__text{
+    order:2;
+    text-align:center;
+    margin:0 2rem;
+    margin-top:3rem;
+  }
+  .hm-abt .hm-abt__wrapper img{
+    margin-left:-15rem
+  }
+  .hm-abt .hm-abt__text h1{
+    font-size:3rem;
+  }
+  .hm-abt .hm-abt__text p{
+    margin-top:2rem;
+    margin-bottom:5rem;
+  }
+}
+
+/*-----HM-CONTACT------*/
+.hm-contact{
+  background: #ffa700;
+  align-item: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  
+}
+
+.hm-contact .hm-contact__wrapper{
+  text-align: center;
+
+}
+
+.hm-contact .hm-contact__text h3{
+  font-size: 3rem;
+  font-weight: 800;
+}
+.hm-contact .hm-contact__text p{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.hm-contact .hm-contact__text a{
+  margin-top:2rem;
+}
+
+@media screen and (max-width:500px){
+  .hm-contact .hm-contact__wrapper{
+
+    display: grid;
+    grid-template-columns:1fr;
+    
+  }
+  .hm-contact .hm-contact__text{
+    text-align:center;
+    margin:0 1rem;
+    margin-top:0.5rem;
+  }
+
+  .hm-contact .contact__text h3{
+    font-size:1rem;
+  }
+  .hm-contact .hm-contact__text p{
+    margin-top:1rem;
+    margin-bottom:2rem;
+  }
 }
