@@ -394,6 +394,78 @@ transform: translateY(7px) rotate(225deg);
   }
 }
 
+/*-----About_Home------*/
+.abt{
+  background:#ffffff;
+  padding-top: 13rem;
+  padding-bottom: 5rem;
+}
+
+.abt .abt__wrapper{
+  display:grid;
+  grid-template-columns: 2fr 2fr;
+  align-items:center;
+  grid-gap:24rem ;
+}
+.abt. .abt__wrapper img{
+  margin:auto 0;
+}
+
+.abt .abt__text h2{
+  font-size: 10rem;
+  font-weight:600;
+  color:#ffa700;
+}
+.abt .abt__text p{
+  max-width:45rem;
+  text-align: justify;
+}
+.abt .abt__text p:first-child{
+  font-weight:600;
+}
+.abt .abt__text p:nth-child(3){
+  margin-bottom: 3rem;
+  line-spacing: 1rem;
+}
+
+
+/*-----Abt cards------*/
+.cards{
+  padding:5rem 0;
+  background: #2b2b2b;
+}
+.cards .project__card__text h4{
+  color:#ffa700; 
+  font-size:2rem;
+  font-weight:600;
+  line-height:4;
+}
+.cards .cards__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:9rem;
+}
+.cards .projects__card{
+  background:#ffffff;
+  border-radius:2rem;
+  margin: top 10rem;
+  transition: .5s ease;
+}
+.cards .projects__card img{
+  width:100%
+}
+.cards .projects__card .project__card__text{
+  padding:2rem;
+}
+.cards .projects__card .project__card__text h4{
+  color:#ffa700;
+  font-weight: 600;
+}
+.cards .projects__card .project__card__text p{
+  margin: 3rem 0;
+}
+
+
 /*-----Updates------*/
 .updates{
   background:#ffffff;
