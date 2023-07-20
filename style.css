@@ -405,15 +405,16 @@ transform: translateY(7px) rotate(225deg);
   display:grid;
   grid-template-columns: 2fr 2fr;
   align-items:center;
-  grid-gap:24rem ;
 }
-.abt. .abt__wrapper img{
+.abt .abt__wrapper img{
+  width:100%;
   margin:auto 0;
 }
 
 .abt .abt__text h2{
   font-size: 10rem;
   font-weight:600;
+  line-height:1;
   color:#ffa700;
 }
 .abt .abt__text p{
@@ -454,6 +455,40 @@ transform: translateY(7px) rotate(225deg);
   transition: .5s ease-out;
   transform: scale (1.1);
 }
+
+@media screen and (max-width:500px){
+  .abt .abt__wrapper{
+    display: grid;
+    grid-template-columns:1fr;
+  }
+  .abt .abt__text{
+    order:2;
+    text-align:center;
+    margin:0 2rem;
+    margin-top:3rem;
+  }
+  .abt .abt__wrapper img{
+    width:30rem;
+    margin:0 auto;
+  }
+  .abt .abt__text h2{
+    font-size:8rem;
+  }
+  .abt .abt__text p:first-child{
+    text-align:center;
+  }
+  .abt .abt__text p:not(:first-child){
+    margin-top:2rem;
+  }
+  .abt .abt__text a{
+    transition: .5s ease;
+  }
+  .abt .abt__text ul{
+    justify-content:center;
+    margin:5rem 0;
+  }
+}
+
 
 
 /*-----Abt cards------*/
@@ -505,6 +540,27 @@ transform: translateY(7px) rotate(225deg);
 .cards .projects__card .project__card__text p{
   margin-bottom:7rem;
 }
+
+@media screen and (max-width:500px){
+    .cards .project__title{
+      text-align:center;
+    }
+    .cards .cards__wrapper{
+      display:unset;
+      display:flex;
+      flex-direction:column;
+    }
+    .cards .projects__card{
+      margin-left:2rem;
+      margin-right:2rem;
+      border-radius:3rem;
+    }
+    .cards .projects__card:hover{
+      transform:scale(1);
+    }
+  }
+
+
 
 
 /*-----Updates------*/
