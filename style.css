@@ -436,11 +436,23 @@ transform: translateY(7px) rotate(225deg);
   color:#ffa700;
   font-size:2.5rem;
 }
+
+.abt .abt__text ul li a:hover{
+  color:#2b2b2b;
+  text-shadow: 2px 2px 3px #000000;
+  transition: .5s ease;
+  trasnform: scale 
+}
 .abt .container a{
   font-size: 6rem;
   color:#ffa700;
   display:flex;
   justify-content:center;
+}
+.abt .container a:hover{
+  color:#2b2b2b; 
+  transition: .5s ease-out;
+  transform: scale (1.1);
 }
 
 
@@ -471,9 +483,14 @@ transform: translateY(7px) rotate(225deg);
 }
 .cards .projects__card{
   background:#ffffff;
+ 
   border-radius:2rem;
   margin-top: 10rem;
   transition: .5s ease;
+}
+.cards__wrapper .projects__card:hover{
+  box-shadow:10px 10px 5px black;
+  transform:scale(1.1);
 }
 .cards .projects__card img{
   width:100%
@@ -486,7 +503,7 @@ transform: translateY(7px) rotate(225deg);
   font-weight: 600;
 }
 .cards .projects__card .project__card__text p{
-  margin: 5rem 0;
+  margin-bottom:7rem;
 }
 
 
