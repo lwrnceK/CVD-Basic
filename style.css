@@ -427,6 +427,21 @@ transform: translateY(7px) rotate(225deg);
   margin-bottom: 3rem;
   line-spacing: 1rem;
 }
+.abt .abt__text ul{
+  display:flex;
+  margin-top: 3rem;
+  gap:2.2rem;
+}
+.abt .abt__text ul li a{
+  color:#ffa700;
+  font-size:2.5rem;
+}
+.abt .container a{
+  font-size: 6rem;
+  color:#ffa700;
+  display:flex;
+  justify-content:center;
+}
 
 
 /*-----Abt cards------*/
@@ -440,29 +455,38 @@ transform: translateY(7px) rotate(225deg);
   font-weight:600;
   line-height:4;
 }
+
 .cards .cards__wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:9rem;
+  grid-gap:5rem;
+}
+.cards .project__title h2{
+  color:#ffa700;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.cards .project__title p{
+  color:#ffffff;
 }
 .cards .projects__card{
   background:#ffffff;
   border-radius:2rem;
-  margin: top 10rem;
+  margin-top: 10rem;
   transition: .5s ease;
 }
 .cards .projects__card img{
   width:100%
 }
 .cards .projects__card .project__card__text{
-  padding:2rem;
+  margin:1rem;
 }
 .cards .projects__card .project__card__text h4{
   color:#ffa700;
   font-weight: 600;
 }
 .cards .projects__card .project__card__text p{
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 
