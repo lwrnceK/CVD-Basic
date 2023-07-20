@@ -131,6 +131,7 @@ img {
     position:relative;
     position: fixed;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header .branding{
@@ -899,4 +900,22 @@ padding-left: 30rem;
     margin-top:1rem;
     margin-bottom:2rem;
   }
+}
+/*------Contact Page-----*/
+.cnt{
+  background:#2b2b2b;
+  padding-top: 13rem;
+  padding-bottom:5rem;
+}
+.cnt .cnt__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cnt .cnt__text{
+  color:#ffffff;
+}
+.cnt .cnt__text h2{
+  color:#ffa700;
+  font-size:6rem;
+  font-weight:600;
 }
