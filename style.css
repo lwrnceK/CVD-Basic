@@ -259,6 +259,7 @@ transform: translateY(7px) rotate(225deg);
     }
 }
 
+
 /*-----BANNER------*/
 .banner{
   background: white;
@@ -902,20 +903,58 @@ padding-left: 30rem;
   }
 }
 /*------Contact Page-----*/
-.cnt-left{
+.cntcts{
   background:#2b2b2b;
-  padding-top: 13rem;
+  padding-top:13rem;
   padding-bottom:5rem;
+  
 }
-.cnt-left .cnt__wrapper{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.cnt__title{
+  color:#ffa700;
+  font-size:5rem;
+  font-weight:800;
 }
-.cnt .cnt__text{
+.cnt__wrapper{
+  display:grid;
+  grid-template-columns: 2fr 2fr;
+}
+/*------Contact Page-LEFT----*/
+.cnt__wrapper .cnt_left{
+  width:90%;
+}
+.cnt__wrapper .cnt_left p{
   color:#ffffff;
 }
-.cnt .cnt__text h2{
+.cnt_left .cnt-info ul{
+  display: grid;
+  gap:4rem;
+  margin:5rem 0;
+}
+.cnt_left .cnt-info ul li i{
+  font-size: 2rem;
+  width:2rem;
   color:#ffa700;
-  font-size:6rem;
-  font-weight:600;
+  margin-right: 5rem;
+}
+.cnt_left .cnt-info ul li{
+  
+  color:#ffffff;
+}
+
+.cnt_left .cnt-soc ul{
+  display:flex;
+  font-size:2rem;
+  color:#ffffff;
+  gap:2rem;
+}
+
+/*------Contact Page-Right---*/
+
+.cnt_right form{
+  margin: 1rem;
+  display:grid;
+  gap:4rem;
+}
+.cnt_right form:last-child:{
+  padding: 10rem;
 }
