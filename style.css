@@ -984,3 +984,16 @@ padding-left: 30rem;
   box-shadow:10px 10px 5px black;
   padding:2rem 3rem 9rem;
 }
+
+@media screen and (max-width:500px){
+  .cntcts{
+    height:100%;
+  }
+  .cntcts .cnt__title{
+    text-align:center;
+  }
+  .cntcts .cnt_right form{
+    text-align:justify;
+
+  }
+}
