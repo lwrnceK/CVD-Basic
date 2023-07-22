@@ -248,10 +248,10 @@ transform: translateY(7px) rotate(225deg);
     .header .header__nav ul li{
       font-size:3rem;
     }
-    .header. .header__nav ul li:hover a:before{
+    .header .header__nav ul li:hover a:before{
       width:0%;
     }
-    .header. .header__nav ul li:hover{
+    .header .header__nav ul li:hover{
       background:gray;
     }
     .header .toggle__menu{
@@ -428,7 +428,6 @@ transform: translateY(7px) rotate(225deg);
 }
 .abt .abt__text p:nth-child(3){
   margin-bottom: 3rem;
-  line-spacing: 1rem;
 }
 .abt .abt__text ul{
   display:flex;
@@ -444,7 +443,7 @@ transform: translateY(7px) rotate(225deg);
   color:#2b2b2b;
   text-shadow: 2px 2px 3px #000000;
   transition: .5s ease;
-  trasnform: scale 
+  transform: scale (1,1);
 }
 .abt .container a{
   font-size: 6rem;
@@ -859,7 +858,7 @@ padding-left: 30rem;
 /*-----HM-CONTACT------*/
 .hm-contact{
   background: #ffa700;
-  align-item: center;
+  align-items: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
   
@@ -987,13 +986,26 @@ padding-left: 30rem;
 
 @media screen and (max-width:500px){
   .cntcts{
-    height:100%;
+    height:120vh;
   }
-  .cntcts .cnt__title{
+  .cnt_left{
+    display;
+    justify-content:center;
+  }
+  .cntcts .cnt__wrapper{
+    height:80vh;
+    display:grid;
+    text-align:justify;
+    grid-template-columns:1fr;
+  }
+  .cntcts .cnt__title h1{
     text-align:center;
   }
-  .cntcts .cnt_right form{
-    text-align:justify;
-
+  .cntcts .cnt__title p{
+    text-align:center;
+  }
+  .cnt_left .cnt-soc ul{
+    justify-content:center;
+    margin:8rem 0;
   }
 }
