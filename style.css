@@ -861,12 +861,10 @@ padding-left: 30rem;
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
-  
 }
 
 .hm-contact .hm-contact__wrapper{
   text-align: center;
-
 }
 
 .hm-contact .hm-contact__text h3{
@@ -915,6 +913,8 @@ padding-left: 30rem;
   display:flex;
   align-content:center;
 }*/
+
+
 .cnt__title{
   color:#ffa700;
   font-size:5rem;
@@ -938,6 +938,13 @@ padding-left: 30rem;
   gap:4rem;
   margin:5rem 0;
 }
+.cnt_left .cnt-soc ul li:hover{
+  color:#ffa700;
+  text-shadow: 2px 2px 3px #000000;
+  transition: .5s ease;
+  transform: scale (2,2);
+}
+
 .cnt_left .cnt-info ul li i{
   font-size: 2rem;
   width:2rem;
@@ -988,10 +995,10 @@ padding-left: 30rem;
   .cntcts{
     height:120vh;
   }
-  .cnt_left{
+ /* .cnt_left{
     display;
     justify-content:center;
-  }
+  }*/
   .cntcts .cnt__wrapper{
     height:80vh;
     display:grid;
