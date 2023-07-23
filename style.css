@@ -1019,6 +1019,11 @@ padding-left: 30rem;
 
 
 /*------Services---*/
+.services .services_first_text h1,
+.services_second_text h1,
+.services_third_text h1 {
+  
+}
 .services{
   background:#ffffff;
 }
@@ -1036,6 +1041,7 @@ padding-left: 30rem;
   color:#ffa700;
   font-size: 5rem;
 }
+
 .services .services_first_text p{
   max-width:45rem;
   text-align: justify;
