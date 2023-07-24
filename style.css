@@ -738,6 +738,7 @@ transform: translateY(7px) rotate(225deg);
   background:#2b2b2b;
   border:1px solid #2b2b2b;
   color:#ffffff;
+  transition:.5s ease;
 }
 
 /*-----HM-ABT------*/
@@ -814,6 +815,7 @@ padding-left: 30rem;
   transition: .5s ease;
 }
 .ltrends .ltrends__card:hover{
+  box-shadow:10px 10px 5px black;
   transform:scale(1.1);
 }
 .ltrends .ltrends__card img{
@@ -851,7 +853,7 @@ padding-left: 30rem;
   }
   .ltrends .ltrends__card:hover{
     transition: .5s ease;
-    transform:scale(1);
+    transform:scale(1.1);
   }
 }
 
@@ -1019,11 +1021,6 @@ padding-left: 30rem;
 
 
 /*------Services---*/
-.services .services_first_text h1,
-.services_second_text h1,
-.services_third_text h1 {
-  
-}
 .services{
   background:#ffffff;
 }
@@ -1037,11 +1034,23 @@ padding-left: 30rem;
 .first__section .services_first_text{
   max-width:45rem;
 }
-.services .services_first_text h1{
+.services .services_first_text h2{
   color:#ffa700;
+  padding-bottom:4rem;
   font-size: 5rem;
+  font-weight:800;
 }
-
+.first__section .services_first_text p:nth-child(2){
+  padding-bottom: 4rem;
+ }
+ .first__section .services_first_text p:nth-child(3){
+  padding-bottom: 4rem;
+ }
+ .first__section .services_first_text p:nth-child(6){
+  font-size: 1rem;
+  max-width:13rem;
+  font-style:italic;
+ }
 .services .services_first_text p{
   max-width:45rem;
   text-align: justify;
@@ -1049,6 +1058,11 @@ padding-left: 30rem;
 .services .services_first_text h4{
   color:#ffa700;
   font-size: 5rem;
+}
+.first__section img{
+  margin: auto 0;
+  max-width:30%;
+  height:20%
 }
 
 /*------Services-2nd sec--*/
@@ -1063,10 +1077,22 @@ padding-left: 30rem;
 .second__section .services_second_text{
   max-width:45rem;
 }
-.second__section .services_second_text h1{
+.second__section .services_second_text h2{
   color:#ffa700;
+  padding-bottom:4rem;
   font-size: 5rem;
+  font-weight:800;
 }
+.second__section .services_second_text p:nth-child(2){
+  padding-bottom: 4rem;
+ }
+ .second__section .services_second_text p:nth-child(3){
+  padding-bottom: 4rem;
+ }
+ .second__section .services_second_text p:nth-child(6){
+  font-size: 1rem;
+  font-style:italic;
+ }
 .second__section .services_second_text p{
   color:#ffffff;
   text-align:justify;
@@ -1076,6 +1102,12 @@ padding-left: 30rem;
   color:#ffa700;
   font-size: 5rem;
 }
+.second__section img{
+  margin: auto 0;
+  max-width:30%;
+  height:20%
+}
+
 /*------Services-3rd sec--*/
 .third__section {
   display:flex;
@@ -1087,9 +1119,21 @@ padding-left: 30rem;
 .third__section .services_third_text{
   max-width:45rem;
 }
-.third__section .services_third_text h1{
+.third__section .services_third_text h2{
   color:#ffa700;
+  padding-bottom:4rem;
   font-size: 5rem;
+  font-weight:800;
+}
+.third__section .services_third_text p:nth-child(2){
+ padding-bottom: 4rem;
+}
+.third__section .services_third_text p:nth-child(3){
+  padding-bottom:4rem;
+}
+.third__section .services_third_text p:nth-child(6){
+  font-size: 1rem;
+  font-style:italic;
 }
 .third__section .services_third_text p{
   color:#2b2b2b;
@@ -1098,4 +1142,15 @@ padding-left: 30rem;
 .third__section .services_third_text h4{
   color:#ffa700;
   font-size: 5rem;
+}
+.third__section img{
+  margin: auto 0;
+  max-width:30%;
+  height:20%
+}
+
+@media screen and (max-width:500px){
+  .services{
+
+  }
 }
